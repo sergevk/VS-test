@@ -13,6 +13,5 @@ $d = Get-Service | where {$_.Name -eq 'wuauserv'}
 
 #$d
 
-Write-Output $d
 
 Write-Output "Break here"  ## Breakpoint here
